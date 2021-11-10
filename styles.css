@@ -1,0 +1,30 @@
+html {
+	font-family: 'Comic Sans MS';
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table.results {
+	margin-top: 32px;
+}
+
+td, th {
+	min-width: 20vw;
+	padding: 4px;
+
+	border: 1px darkgoldenrod solid;
+}
+
+thead tr {
+	border-bottom: 4px darkgoldenrod solid;
+}
+
+tbody tr:nth-child(odd) {
+	background: lightyellow;
+}
+
+tfoot tr {
+	border-top: 4px darkgoldenrod solid;
+}
